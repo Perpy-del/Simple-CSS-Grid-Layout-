@@ -1,0 +1,46 @@
+html, body {
+  box-sizing: border-box;
+  font-family: Helvetica Arial, Helvetica, sans-serif;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 800px;
+  flex-direction: column;
+  background-color: #c1cfd1;
+  margin: -16px 30px 0 30px;
+  box-sizing: border-box;
+}
+
+div.container {
+  width: 80%;
+  display: grid;
+  grid-template: repeat(6, 5em) / repeat(6, 1fr);
+  grid-gap: 10px;
+}
+
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten, #eleven, #twelve, #thirteen, #fourteen, #fifteen, #sixteen, #seventeen, #eighteen, #nineteen, #twenty, #twone, #twtwo, #twree, #twour, #twive, #twix, #tweven, #tweight, #twine, #thirty {
+  border: 2px solid black;
+  text-align: center;
+  padding: 20px 0 10px 0;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 75px;
+  font-weight: 700;
+}
+
+#twree {
+  grid-column: 5 / 7;
+  grid-row: 4 / 6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  font-weight: 700;
+}
